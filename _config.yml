@@ -1,17 +1,17 @@
 # Site settings
-title:          Hangzhou Linux User Group
-description:    "Hangzhou Linux User Group"
+title:          Tale
+description:    "Minimal Jekyll theme for storytellers"
 baseurl:        "/tale"
-url:            "https://hzlug.com/"
+url:            "https://chesterhow.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Hangzhou Linux User Group
-  url:          https://hzlug.com/
-  email:        hzlug@qq.com
+  name:         Chester How
+  url:          https://chester.how
+  email:        chesterhow@gmail.com
 
 # Build settings
 markdown:       kramdown
