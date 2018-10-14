@@ -33,3 +33,9 @@ plugins:
 # Permalinks
 permalink:      /:year-:month-:day/:title
 paginate:       5
+
+theme:      tale
+permalink:  /:year-:month-:day/:title
+paginate:   5
+
+baseurl:  "/tale"
