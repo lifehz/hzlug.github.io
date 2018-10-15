@@ -144,10 +144,10 @@ pageview:
 ## => Analytics
 ##############################
 analytics:
-  provider: google # false (default), "google", "custom"
+  provider: google
   google:
-  tracking_id : UA-127458936-1 # Google Analytics id for the site
-  anonymize_ip: true # Anonymize IP tracking for Analytics
+  tracking_id : "UA-127458936-1"
+  anonymize_ip: true
 
 
 ## => Build
