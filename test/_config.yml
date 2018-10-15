@@ -146,8 +146,7 @@ pageview:
 analytics:
   provider: google
   google:
-  tracking_id : UA-127458936-1
-  anonymize_ip: true
+    tracking_id : UA-127458936-1
 
 
 ## => Build
