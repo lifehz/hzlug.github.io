@@ -144,7 +144,7 @@ pageview:
 ## => Analytics
 ##############################
 analytics:
-  provider: google # false (default), "google", "custom"
+  provider: true # false (default), "google", "custom"
 
 ## Google Analytics
   google:
