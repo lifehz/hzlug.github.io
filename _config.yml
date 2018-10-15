@@ -62,7 +62,7 @@ repository_tree: master
 paths:
   root    : # title link url, "/" (default)
   home    : # home layout url, "/" (default)
-  # archive : # "/archive.html" (default)
+  archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
 
 
@@ -144,7 +144,7 @@ pageview:
 ## => Analytics
 ##############################
 analytics:
-  provider: false # false (default), "google", "custom"
+  provider: "google" # false (default), "google", "custom"
 
 ## Google Analytics
 google:
