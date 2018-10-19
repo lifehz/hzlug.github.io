@@ -14,8 +14,8 @@ key: page-about
 
 ## 如何加入HZLUG
 
-- Mailing：https://groups.google.com/group/hzlug
-- Telegram：https://t.me/hzlug
+- Mailing：[https://groups.google.com/group/hzlug](https://groups.google.com/group/hzlug)
+- Telegram：[https://t.me/hzlug](https://t.me/hzlug)
 - 微信：zionfuo
 
 ## HZLUG的章程
