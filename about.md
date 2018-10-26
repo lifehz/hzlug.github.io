@@ -14,7 +14,7 @@ key: page-about
 
 ## 如何加入HZLUG
 
-- Mailing：[https://groups.google.com/group/hzlug](https://groups.google.com/group/hzlug)
+- Google Groups：[https://groups.google.com/group/hzlug](https://groups.google.com/group/hzlug)
 - Telegram：[https://t.me/hzlug](https://t.me/hzlug)
 - 微信：zionfuo
 
@@ -36,7 +36,13 @@ key: page-about
 ## 网站服务
 
 - 解析：Aliyun
-- 托管：Github + Jekyll
+- 托管：GitHub + Jekyll
 - CDN：Netlify
 - 图片：TinyPNG
 
+## 网站服务
+
+- E-mail：[hzlug{at}qq.com](mailto:hzlug@qq.com)
+- Weibo：[@HZLUG](https://weibo.com/hzlug)
+- Twitter：[@HZLUG](https://twitter.com/hangzhoulug)
+- GitHub：[hzlug](https://github.com/hzlug)
