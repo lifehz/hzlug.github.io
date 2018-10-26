@@ -40,7 +40,7 @@ key: page-about
 - CDN：Netlify
 - 图片：TinyPNG
 
-## 网站服务
+## 联系方式
 
 - E-mail：[hzlug{at}qq.com](mailto:hzlug@qq.com)
 - Weibo：[@HZLUG](https://weibo.com/hzlug)
