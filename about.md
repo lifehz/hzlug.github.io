@@ -16,7 +16,7 @@ key: page-about
 
 - Google Groups：[https://groups.google.com/group/hzlug](https://groups.google.com/group/hzlug)
 - Telegram：[https://t.me/hzlug](https://t.me/hzlug)
-- 微信：zionfuo
+- 微信：578657536（备注：HZLUG）
 
 ## HZLUG的章程
 
@@ -45,4 +45,4 @@ key: page-about
 - E-mail：[hzlug{at}qq.com](mailto:hzlug@qq.com)
 - Weibo：[@HZLUG](https://weibo.com/hzlug)
 - Twitter：[@HZLUG](https://twitter.com/hangzhoulug)
-- GitHub：[hzlug](https://github.com/hzlug)
+- GitHub：[HZLUG](https://github.com/hzlug)
