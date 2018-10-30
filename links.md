@@ -5,7 +5,7 @@ titles:
   zh: 友链
   zh-Hans: 友链
   zh-Hant: 友鏈
-key: page-about
+key: page-links
 ---
 
 ![](/assets/hzlug.png)
