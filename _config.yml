@@ -42,7 +42,7 @@ author:
   email     : hzlug@qq.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : hangzhoulug # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
-  googleplus: hzlug # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
+  googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
   weibo     : hzlug # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name/
   linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name/
@@ -64,9 +64,8 @@ paths:
   home    : # home layout url, "/" (default)
   archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
-  links   : /links.html 
 
-
+  
 ## => Post
 ##############################
 ## excerpt

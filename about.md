@@ -33,15 +33,21 @@ key: page-about
 最后再淡到HZLUG存在的意义，解释这个很简单，因为大家需要它，它就是你的组织。
 相信无论你在学习中、还是工作中，都有过一个人琢磨些东西，却找不到能一起探讨或者出主意的人的情况。HZLUG，主要就是提供一个本土化的交流平台，你可以在这里与本土的、兴趣相投的朋友进行交流与探讨。即使这仍是网络，我们有线下活动可以补充网络的不足，这就是HZLUG存在的价值。
 
-## 网站服务
-
-- 解析：Aliyun
-- 托管：GitHub + Jekyll
-- 图片：TinyPNG
-
 ## 联系方式
 
 - E-mail：[hzlug{at}qq.com](mailto:hzlug@qq.com)
 - Weibo：[@HZLUG](https://weibo.com/hzlug)
 - Twitter：[@HZLUG](https://twitter.com/hangzhoulug)
 - GitHub：[HZLUG](https://github.com/hzlug)
+
+## 友情链接
+
+- 解析：Aliyun
+- 托管：GitHub + Jekyll
+- 图片：TinyPNG
+
+## 网站服务
+
+- 解析：Aliyun
+- 托管：GitHub + Jekyll
+- 图片：TinyPNG
