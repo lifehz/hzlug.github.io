@@ -1,10 +1,10 @@
 ---
-layout: article
+layout: links
 titles:
-  en: About
-  zh: 关于
-  zh-Hans: 关于
-  zh-Hant: 關於
+  en: Links
+  zh: 友链
+  zh-Hans: 友链
+  zh-Hant: 友鏈
 key: page-about
 ---
 
