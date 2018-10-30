@@ -42,9 +42,11 @@ key: page-about
 
 ## 友情链接
 
-- 解析：Aliyun
-- 托管：GitHub + Jekyll
-- 图片：TinyPNG
+| 名称 | 网址 |
+|-----|-----|
+|Linux中国|https://linux.cn/|
+|Linux Story|https://linuxstory.org/|
+|China LUG|https://lug.org.cn/|
 
 ## 网站服务
 
