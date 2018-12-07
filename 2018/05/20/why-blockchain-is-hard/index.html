@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html lang="null">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#202020"/>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  
+    <meta name="keywords" content="blockchain," />
+  
+
+  
+    <meta name="description" content="为什么区块链很难" />
+  
+  
+  <link rel="icon" type="image/x-icon" href="/logo.png">
+  <title>为什么区块链很难 [ 搞事情 ]</title>
+  
+    <!-- stylesheets list from config.yml -->
+    
+      <link rel="stylesheet" href="//cdn.bootcss.com/pure/1.0.0/pure-min.css">
+    
+      <link rel="stylesheet" href="/css/microb.css">
+    
+  
+</head>
+
+<body>
+  <nav class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+  <ul class="pure-menu-list float-r clearfix">
+    
+      <li class="pure-menu-item toc-menu">
+        <a id="menu-main-post" class="pure-menu-link" href="javascript:;">
+          <img class="menu-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAa0lEQVRYR+2UQQqAUAhE53eFbjoH0Zt2gzBo0a6Q+KHQuBYdHvoGimsU78cVgGQ8hTGzs3d2nwKIgAj0IVAlJJmwzw3Mdnx2ngiIQB8CMmH2b0nuAJY7YhGxuvuWnffmBhRABETgGwK/NeEBkT5AMP4c9MUAAAAASUVORK5CYII=" alt="MENU">
+        </a>
+      </li>
+    
+  </ul>  
+  <a class="pure-menu-heading" href="/">
+      <h1 class="title">搞事情</h1>
+      <!-- <span>提升姿势水平</span> -->
+  </a>
+  
+  <img class="logo" id="logo" src="/logo.png" alt="logo">
+  
+</nav>
+
+  <div class="container" id="content-outer">
+    <div class="inner" id="content-inner">
+      <article class="post" id="post">
+  <header class="post-header text-center">
+    <h1 class="title">
+      为什么区块链很难
+    </h1>
+    
+    <time class="time" datetime="2018-05-20T06:59:43.000Z">
+      2018-05-20
+    </time>
+    
+    <hr>
+  </header>
+  <div class="post-content">
+    <p>当前围绕区块链的炒作十分严重。通常会听到那些对天花乱坠的区块链炒作话题，例如：</p>
+<ol>
+<li>解决收入不平等</li>
+<li>使所有数据永远安全</li>
+<li>让一切变得更加高效和可靠</li>
+<li>拯救低迷的经济</li>
+</ol>
+<p>到底什么是区块链（blockchain）？它真的能做上面的这些事情吗？区块链能给医疗、金融、供应链管理和音乐版权等众多行业带来惊人的成果吗？<br>怎么可以因为比特币而支持区块链呢？怎么可以因为比特币而说它背后的技术不好呢？</p>
+<p>在本文中，我试图通过回答这些问题, 来看看区块链是什么, 更重要的是,研究 它不是什么。</p>
+<h2 id="什么是区块链？"><a href="#什么是区块链？" class="headerlink" title="什么是区块链？"></a>什么是区块链？</h2><p>为了检查这些说法，我们必须定义区块链是什么，因为对其的定义还存在很混乱。许多公司使用“区块链”这个词来表示某种虚幻的媒介，通过它所有的数据将不会消失。当然，这种媒介并不存在，至少在现实世界中是如此。</p>
+<p>那么区块链是什么？从技术上讲，区块链是区块的链表，区块是一组有序的交易。如果您不理解最后一句话，您可以将区块链视为数据库的一个子集，并带有一些附加属性。</p>
+<p><img src="https://i.imgur.com/JjaaWza.jpg" alt=""></p>
+<p>区块链与普通数据库区的主要区别在于, 对于如何将数据放入数据库有特定的规则。也就是说, 它不能与数据库中已有的其他数据相冲突 (共存性) , 它是仅可追加的 (不可变性), 并且数据本身被锁定到其所有者 (所有性), 它是可复制和可用的。最后，因为每个节点都准守其数据的状态（规范性），都认同没有中央服务器（去中心化）这种模式。</p>
+<p>这最后一点（去中心化），确实可以说是区块链的圣杯（传说中耶稣最后晚餐所用之杯，比喻梦寐以求的东西）。去中心化是非常有吸引力的，因为它将意味着不会被单点突破。也就是说，没有任何一个组织能够拿走你的资产或改变“历史记录”来达到他们的需求。区块链为大家提供了一个不需要信任的不可改变的交易环境，但是使用这个环境的成本很高。</p>
+<h2 id="区块链的成本"><a href="#区块链的成本" class="headerlink" title="区块链的成本"></a>区块链的成本</h2><p>不受任何一方控制的不可变的审计跟踪交易当然是有用的，但创建这样一个系统的成本很高。让我们来看看一些问题。</p>
+<h3 id="开发更加严格和缓慢"><a href="#开发更加严格和缓慢" class="headerlink" title="开发更加严格和缓慢"></a>开发更加严格和缓慢</h3><p>创建一个区块链证明系统并非易事。一个小bug可能会破坏整个数据库或导致一些数据库与其他数据库不同。当然，这些损坏或拆分的数据库不再具有任何一致性的保证。此外，所有这些系统必须从一开始就设计数据为一致。就是说区块链中没有“move fast and break things “（快速行动，打破常规）。如果你破坏了一些东西，你就失去了一致性，区块链被破坏，变得毫无价值。</p>
+<p><img src="https://i.imgur.com/97pQ57U.gif" alt=""></p>
+<p>你可能会想，为什么你不能修复数据库或重新启动服务器使系统继续运作？这在拥有中央服务器的情况下很容易实现，但在去中心化的系统中这是非常困难的。您需要达成共识，或需要系统中所有参与者达成一致，才能更改数据库。区块链必须是一个不受单个实体控制的公共资源（去中心化的，不可删除的），或者投入大量资金将其缓慢的打造成一个中心化的系统。</p>
+<h2 id="激励机制难设计"><a href="#激励机制难设计" class="headerlink" title="激励机制难设计"></a>激励机制难设计</h2><p>添加正确的激励结构并确保系统中的所有参与者不会滥用或损坏数据库，同样是一个需要考虑的因素。区块链需要保持数据一致，但如果它充斥着大量无用的数据，那么它的效率会很低，毕竟将数据存入区块链的成本非常低。如果区块链中几乎没有数据，那么它们都不是一个有用的区块链，因为将数据存入区块链的成本非常高。</p>
+<p><img src="https://i.imgur.com/LR1C9Xd.png" alt=""></p>
+<p>到底是什么赋予数据最终的特性？如何确保奖励与网络目标一致？为什么节点保存或更新数据，以及当数据建发生冲突时，其中的选择依据是什么？这些都是需要好好回答的激励问题，不管技术与公司发生了什么变化，所有节点必须保持一致，否则区块链是没有价值的。</p>
+<p>你可能想知道为什么激励机制出现问题时，不能去修复。因为，在中心化的系统下这个很容易实现，但在去中心化的系统中，如果没有达成共识，您根本无法改变任何事情。除非每个人都同意，否则没有任何“修复”的可能。</p>
+<h2 id="维护成本非常高"><a href="#维护成本非常高" class="headerlink" title="维护成本非常高"></a>维护成本非常高</h2><p>传统的中心化数据库只需要写入一次。但是区块链需要被写入数千次。传统的集中式数据库只需要检查一次数据，区块链需要检查数据上千次。传统的中央数据库只需要传输一次数据进行存储，区块链需要传输上千次数据。</p>
+<p>维护区块链的成本要高出很多，并且成本需要通过实用程序来证明。大多数应用程序正在寻找一些前述的性能，如一致性和可靠性，这些应用程序可以使用完整性检查，接收和备份成本更便宜。</p>
+<h2 id="用户至上"><a href="#用户至上" class="headerlink" title="用户至上"></a>用户至上</h2><p>这可能是非常好的选择，因为很多公司不愿意为用户的数据承担责任。但是如果用户不法的使用了你的区块链，后果可能很糟糕。因为你没有办法剔除用户，它会用琐碎的数据损害你的区块链，也可能会利用某些不当手段获利，给其它用户带来不便。正因如此，我们才需要非常好的架构，即使某个用户发现漏洞，也不会有什么影响，因为无利可图。</p>
+<p>您可以拒绝向恶意用户提供服务，这在中心化服务中很容易实现。然而，与中心化服务不同，区块链拒绝服务非常困难，因为没有任何一个实体有权将任何人踢出局。区块链必须是公正的，并执行由软件定义的规则。如果规则不足以阻止不良行为，那就很尴尬了。因为区块链里没有法律。你只需要处理恶意者、行为不良的人的过程，可能会持续很长时间。</p>
+<h2 id="所有升级都是自愿的"><a href="#所有升级都是自愿的" class="headerlink" title="所有升级都是自愿的"></a>所有升级都是自愿的</h2><p>区块链系统不会强制更新。网络上没有人可以改变您的软件。如果他们这样做，那么开发一个系统会更容易、更快、更便宜，就像中心化系统一样。区块链的重点在于它不受单一实体的控制，这与强制升级存在冲突。</p>
+<p><img src="https://i.imgur.com/XAVyw6g.jpg" alt=""></p>
+<p>因此所有更新都是向后兼容的。这显然是相当困难的，特别是如果你想添加新的功能，从测试的角度考虑会更加困难。该软件的每个版本都增加了测试的难度，并延长了发布时间。</p>
+<p>再次重申，如果这是一个中心化的系统，这将很容易修改，不再为旧系统服务进行维护。在区块链中你不能这样做，但是在去中心的系统中，你不能强迫任何人做任何事情。</p>
+<h2 id="扩展是一件很难的事"><a href="#扩展是一件很难的事" class="headerlink" title="扩展是一件很难的事"></a>扩展是一件很难的事</h2><p>与传统中心化系统相比，要让区块链系统具有弹性相当难，难上很多很多。为什么？原因其实很简单。同样的数据存储在无数地方，不是存在一个地方。传递、验证、存储任务超级繁重，数据库每出现一个复本，就要支付费用，如果是传统中心化数据库，支付一次就行了。</p>
+<p>当然，你可以减少节点的数量，减轻负担。既然如此，你为什么要用去中心化系统呢，可以不用啊？如果你担心的只是扩展成本，干脆用中心化数据库不就行了吗？</p>
+<h2 id="中心化要容易得多"><a href="#中心化要容易得多" class="headerlink" title="中心化要容易得多"></a>中心化要容易得多</h2><p>去中心化系统很难处理，维护成本很高，升级困难，扩展性差。如果是中心化数据库，费用更低，维护更容易，升级也更容易。为什么大家还要使用区块链，将它当成解决所有问题的灵丹妙药？</p>
+<p><img src="https://i.imgur.com/utuYJ8t.jpg" alt=""></p>
+<p>首先，之所以向某些行业推销区块链，是因为它们行业的基础设施很久没升级了。医疗保健行业的软件相当糟糕。金融行业使用的软件停留在70年代。供应链管理软件既难安装，又难使用。来自这些行业的大多企业不愿意升级，为什么？因为有风险。有时投入巨资升级基础设施，结果发现不行，只能回退到过去。区块链可以推动IT基础设施升级，让升级变得更有吸引力。</p>
+<p>其次，区块链能让你觉得自己很领先。真正理解区块链的人很少，他们使用这个术语，只是因为听起来更聪明。我们使用“云计算”来谈论别人的计算机，“AI”的意思就是说调整算法，至于使用“区块链”这一术语，就是说要使用很慢很贵的数据库。</p>
+<p>第三，大家真的不喜欢政府控制某些产业，希望确立一种不同于法律的裁决机制，它很慢，很贵。区块链可以帮助行业摆脱政府监管。老实说，这种吹捧有点过头。区块链完全不与人冲突是不可能的。</p>
+<p>许多人没有真正理解区块链的能力和成本，就大吹特吹。更糟糕的是，许多VC和高管将区块链技术的细节和成本变得很抽象，因为我们刻意含糊其辞，区块链能做什么，不能做什么，我们没有讲清楚。皇帝没有穿衣服，大家都知道，但是不愿意说出来。</p>
+<h2 id="区块链带来的益处"><a href="#区块链带来的益处" class="headerlink" title="区块链带来的益处"></a>区块链带来的益处</h2><p>我们都知道，相对于中心化数据库，区块链是很贵的。之所以使用区块链技术，唯一的原因就是去中心化。也就是说清除单一故障点，不让任何人控制。</p>
+<p>这样一来，软件和数据库不能经常改变，甚至完全不改变。</p>
+<p><img src="https://i.imgur.com/GqFUjJk.png" alt=""></p>
+<p>许多行业不愿意这样。它们希望在必要时刻可以添加新功能，升级，可以自由改变或者拓展。因为区块链很难升级，很难改变，很难扩展，所以区块链对于大多行业没有太多用。</p>
+<p>只有一样东西例外，那就是金钱。和大多行业不同，如果不变化，金钱系统会更好。规则不可变或者很难改变，对于金钱来说是一件好事，没有任何损害。正因如此，谈到比特币时，区块链才会成为最适合的工具。</p>
+<p>有许多企业想使用区块链技术，但它们实际上并不是真的想要区块链，只是想给行业IT基础设施升升级。很好，但是如果非要扯上“区块链”这个术语，就有点不诚实了，而且过度夸大区块链的能力。</p>
+<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>在今天的世界，区块链已经成为流行术语。如果是中心化服务，中心化系统不能做的事区块链也做不到，而且开发中心数据库成本要低很多很多。如果是去中心化服务，你可能会欺骗自己，不去思考系统中存在的单点故障。在真正的去中心化服务中，根本不存在真正的“你“。</p>
+<p><img src="https://i.imgur.com/XCkyqDr.jpg" alt=""></p>
+<p>回看2000年代初期，科技行业的许多高管都说要使用Java和XML。它们都是工具，不是真正的产品，但是许多高管还是向两种技术的使用投入巨资，虽然技术本身与工程师想达到的目标完全不匹配。区块链有点相似。专注你所要解决的问题，工具会自然而然冒出来。如果你盯着自己想使用的工具，最终造出的只是古怪的东西，没有任何实际用处。</p>
+<p>我有一种感觉：从概念上看，目前的区块链技术似乎想做不可能的事情。它们想变成安全的去中心化系统，由集中权力控制。这样的构想似乎想将两个世界的优点结合在一起，但是最终两边都不会好看。去中心化系统的成本劣势与开发难度会体现出来，中心化系统的出错模式也无法避免。</p>
+<p>区块链术语有点使用过度，许多人打着区块链的牌子招摇撞骗。越早远离炒作可能越好。</p>
+<p>原作者： jimmysong<br>原始文章：<a href="https://medium.com/@jimmysong/why-blockchain-is-hard-60416ea4c5c[https://medium.com/@jimmysong/why-blockchain-is-hard-60416ea4c5c](https://medium.com/@jimmysong/why-blockchain-is-hard-60416ea4c5c" target="_blank" rel="external">https://medium.com/@jimmysong/why-blockchain-is-hard-60416ea4c5c[https://medium.com/@jimmysong/why-blockchain-is-hard-60416ea4c5c](https://medium.com/@jimmysong/why-blockchain-is-hard-60416ea4c5c</a>)</p>
+
+  </div>
+  <div class="post-tags">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/blockchain/">blockchain</a></li></ul>
+  </div>
+</article>
+  
+    <div class="post-nav">
+      <div class="post-nav-item post-nav-next">
+        
+          <span>〈 </span>
+          <a href="/2018/05/02/7-marketing-tips-for-blockchain-startups/" rel="next" title="7个区块链初创公司的营销技巧">
+          7个区块链初创公司的营销技巧
+          </a>
+        
+      </div>
+  
+      <div class="post-nav-item post-nav-prev">
+        
+          <a href="/2018/06/04/liang-ning/" rel="prev" title="《梁宁 · 产品思维30讲》笔记">
+            《梁宁 · 产品思维30讲》笔记
+          </a>
+          <span>〉</span>
+        
+      </div>
+    </div>
+  
+
+
+  <div id="toc" class="toc-article">
+    <strong class="toc-title">目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#什么是区块链？"><span class="toc-text">什么是区块链？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#区块链的成本"><span class="toc-text">区块链的成本</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#开发更加严格和缓慢"><span class="toc-text">开发更加严格和缓慢</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#激励机制难设计"><span class="toc-text">激励机制难设计</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#维护成本非常高"><span class="toc-text">维护成本非常高</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#用户至上"><span class="toc-text">用户至上</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#所有升级都是自愿的"><span class="toc-text">所有升级都是自愿的</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#扩展是一件很难的事"><span class="toc-text">扩展是一件很难的事</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#中心化要容易得多"><span class="toc-text">中心化要容易得多</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#区块链带来的益处"><span class="toc-text">区块链带来的益处</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#结论"><span class="toc-text">结论</span></a></li></ol>
+  </div>
+
+
+
+    </div>
+
+    
+
+  </div>
+
+  <footer class="footer text-center">
+    <div id="bottom-inner">
+      <a href="https://blog.cmcncm.cn/" target="_blank">搞事情</a> |
+      <a href="https://cmcncm.cn/" target="_blank">主站</a> |
+      <a href="https://github.com/zionfuo" target="_blank">GitHub</a> |
+      <a href="http://hexo.io" target="_blank">Hexo</a> |
+      <a href="https://github.com/microacup/hexo-theme-micorb" target="_blank">Theme microb</a>
+    </div>
+  </footer>
+  
+
+<script>
+  (function(window, document, undefined) {
+
+    var timer = null;
+
+    function returnTop() {
+      cancelAnimationFrame(timer);
+      timer = requestAnimationFrame(function fn() {
+        var oTop = document.body.scrollTop || document.documentElement.scrollTop;
+        if (oTop > 0) {
+          document.body.scrollTop = document.documentElement.scrollTop = oTop - 50;
+          timer = requestAnimationFrame(fn);
+        } else {
+          cancelAnimationFrame(timer);
+        }
+      });
+    }
+
+    var hearts = [];
+    window.requestAnimationFrame = (function() {
+      return window.requestAnimationFrame ||
+        window.webkitRequestAnimationFrame ||
+        window.mozRequestAnimationFrame ||
+        window.oRequestAnimationFrame ||
+        window.msRequestAnimationFrame ||
+        function(callback) {
+          setTimeout(callback, 1000 / 60);
+        }
+    })();
+    init();
+
+    function init() {
+      css(".heart{z-index:9999;width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: absolute;}.heart:after{top: -5px;}.heart:before{left: -5px;}");
+      attachEvent();
+      gameloop();
+      addMenuEvent();
+    }
+
+    function gameloop() {
+      for (var i = 0; i < hearts.length; i++) {
+        if (hearts[i].alpha <= 0) {
+          document.body.removeChild(hearts[i].el);
+          hearts.splice(i, 1);
+          continue;
+        }
+        hearts[i].y--;
+        hearts[i].scale += 0.004;
+        hearts[i].alpha -= 0.013;
+        hearts[i].el.style.cssText = "left:" + hearts[i].x + "px;top:" + hearts[i].y + "px;opacity:" + hearts[i].alpha + ";transform:scale(" + hearts[i].scale + "," + hearts[i].scale + ") rotate(45deg);background:" + hearts[i].color;
+      }
+      requestAnimationFrame(gameloop);
+    }
+
+    /**
+     * 给logo设置点击事件
+     * 
+     * - 回到顶部
+     * - 出现爱心
+     */
+    function attachEvent() {
+      var old = typeof window.onclick === "function" && window.onclick;
+      var logo = document.getElementById("logo");
+      if (logo) {
+        logo.onclick = function(event) {
+          returnTop();
+          old && old();
+          createHeart(event);
+        }
+      }
+      
+    }
+
+    function createHeart(event) {
+      var d = document.createElement("div");
+      d.className = "heart";
+      hearts.push({
+        el: d,
+        x: event.clientX - 5,
+        y: event.clientY - 5,
+        scale: 1,
+        alpha: 1,
+        color: randomColor()
+      });
+      document.body.appendChild(d);
+    }
+
+    function css(css) {
+      var style = document.createElement("style");
+      style.type = "text/css";
+      try {
+        style.appendChild(document.createTextNode(css));
+      } catch (ex) {
+        style.styleSheet.cssText = css;
+      }
+      document.getElementsByTagName('head')[0].appendChild(style);
+    }
+
+    function randomColor() {
+      // return "rgb(" + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + ")";
+      return "#F44336";
+    }
+
+    function addMenuEvent() {
+      var menu = document.getElementById('menu-main-post');
+      if (menu) {
+        var toc = document.getElementById('toc');
+        menu.onclick = function() {
+          if (toc) {
+            if (toc.style.display == 'block') {
+              toc.style.display = 'none';
+            } else {
+              toc.style.display = 'block';
+            }
+          }
+        };
+      }
+    }
+
+  })(window, document);
+</script>
+
+  
+
+
+
+</body>
+</html>
