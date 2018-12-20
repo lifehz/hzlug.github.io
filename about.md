@@ -71,14 +71,7 @@ HZLUG的月度讲座活动是以讲解中高难度为主的小组授课式聚会
 
 ## 友情链接
 
-| 名称 | 网址 |
-|-----|-----|
-|Linux中国|[https://linux.cn/](https://linux.cn/)|
-|Linux Story|[https://linuxstory.org/](https://linuxstory.org/)|
-|China LUG|[https://lug.org.cn/](https://lug.org.cn/)|
-|巴比特|[https://www.8btc.com/](https://www.8btc.com/)|
-
-## 网站服务
-
-- 解析：Aliyun
-- 托管：GitHub + Jekyll
+- Linux中国：[https://linux.cn/](https://linux.cn/)
+- Linux Story：[https://linuxstory.org/](https://linuxstory.org/)
+- China LUG：[https://lug.org.cn/](https://lug.org.cn/)
+- 巴比特：[https://www.8btc.com/](https://www.8btc.com/)
